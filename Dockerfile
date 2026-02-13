@@ -1,4 +1,4 @@
-FROM python:3.14-bookworm
+FROM python:3.12-bookworm
 COPY --from=docker.io/astral/uv:latest /uv /uvx /bin/
 
 WORKDIR /app
